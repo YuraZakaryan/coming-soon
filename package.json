@@ -1,28 +1,18 @@
 {
-  "name": "react-coming-soon-page",
-  "version": "1.0.0",
-  "description": "React site under contruction page to showcase countdown timer and opt-in form components.",
-  "keywords": [],
-  "main": "src/index.js",
+  "name": "coming-soon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "moment": "2.29.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "3.0.1"
+    "vue": "^3.5.12"
   },
   "devDependencies": {
-    "typescript": "3.3.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.9"
+  }
 }
